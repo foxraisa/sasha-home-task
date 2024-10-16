@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+ }
+
+ /* CСтраница 1 */
+
+ .title-Page1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+    min-height: 800px;
+    margin-bottom: 25%;
+
+ }
+
+.main-button {
+  text-align: center;
+  min-width: 100px;
+  font-family: inherit;
+  appearance: none;
+  border: 0;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #00acee, #0072e0);
+  /* Для того, чтобы сделать кнопку  сплошно цвета, удалить строчку выше и раскомментировать ту, котрая ниже*/
+  /* background: #4676d7; */ 
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 1px solid rgb(36, 19, 74); 
+
+  }
+
+  .main-button:hover  {    
+    background: #1d49aa;
+
+  }
+
+  .main-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+  }
+
+
+  /* Cnhfybwf 2 */
+/* Параметры кнопки берутся со страницы 1 */
+
+.Page2 {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+    min-height: 800px;
+    margin-bottom: 25%;
+}
+
