@@ -4,7 +4,7 @@
     
  }
 
- /* CСтраница 1 */
+ /* Страница 1 */
 
  .title-Page1 {
     display: flex;
@@ -45,15 +45,41 @@
   }
 
 
-  /* Cnhfybwf 2 */
+  /* Страница 2 */
 /* Параметры кнопки берутся со страницы 1 */
 
 .Page2 {
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0% auto;
+    display: grid; 
+    grid-template-rows: repeat(6, 1fr); 
     min-height: 800px;
+    width: 100%;
+    gap: 10px;
+    /* Сделать текст в цетре */
+    /* margin: 0% auto; */
     margin-bottom: 25%;
 }
+
+.header-page2 {
+    grid-row: 1/2;
+}
+
+.button-page2 {
+    grid-row: 2/3;
+}
+
+.list-url-page2 {
+    grid-row: 3/7;
+}
+
+.item-page2 {
+    display: inline-block;
+    list-style: none;
+}
+
+
+
+/* .URL .Bucketname .Region { */
+    /* display: inline-block; */
+/* } */
+
 
