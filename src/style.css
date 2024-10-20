@@ -6,7 +6,7 @@
 
  /* Страница 1 */
 
- .title-Page1 {
+ .title-page1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,81 +43,3 @@
     outline: none;
     box-shadow: 0 0 0 4px #cbd6ee;
   }
-
-
-  /* Страница 2 */
-/* Параметры кнопки берутся со страницы 1 */
-
-.Page2 {
-    display: grid; 
-    grid-template-rows: repeat(6, 1fr); 
-    min-height: 500px;
-    width: 100%;
-    gap: 5px;
-    text-align: center;
-    /* Сделать текст в цетре */
-    /* margin: 0% auto; */
-    /* margin-bottom: 5%; */
-}
-
-.button-page2 {
-    grid-row: 1/2;
-}
-
-.header-page2 {
-    grid-row: 2/3;
-    padding-top: auto;
-}
-
-.text-heder-page2 {
-    margin: 30px auto;
-}
-
-.list-url-page2 {
-    grid-row: 3/7;
-}
-
-.item-page2 {
-    display: grid;
-    list-style: none;
-    grid-template-columns: repeat (8, 1fr);
-    grid-template-rows: repeat (3, 1fr);;
-    /* min-height: 30px; */
-    width: 100%;
-    gap: 10px;
-    margin-bottom: 3%;
-    border: 1.5px solid rgb(36, 19, 74); 
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.URL {
-    grid-column: 1/5;
-    grid-row: 1/4;
-    border: 1px solid rgb(121, 87, 194); 
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.Bucketname {
-    grid-column: 5/7;
-    grid-row: 1/4;
-    border: 1px solid rgb(121, 87, 194); 
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.Region {
-    grid-column: 7/8;
-    grid-row: 1/4;
-    border: 1px solid rgb(121, 87, 194);  
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.Action-Button {
-    grid-column: 8/9;
-}
-
-/* Страница 3 */
-

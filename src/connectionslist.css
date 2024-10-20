@@ -1,0 +1,71 @@
+  /* Страница 2 */
+/* Параметры кнопки берутся со страницы 1 */
+
+.page2 {
+    display: grid; 
+    grid-template-rows: repeat(6, 1fr); 
+    min-height: 500px;
+    width: 100%;
+    gap: 5px;
+    text-align: center;
+}
+
+.button-page2 {
+    grid-row: 1/2;
+}
+
+.header-page2 {
+    grid-row: 2/3;
+    padding-top: auto;
+}
+
+.text-heder-page2 {
+    margin: 30px auto;
+}
+
+.list-url-page2 {
+    grid-row: 3/7;
+}
+
+.item-page2 {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat (8, 1fr);
+    grid-template-rows: repeat (3, 1fr);;
+    min-height: 30px;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 3%;
+    border: 1.5px solid rgb(36, 19, 74); 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.url {
+    grid-column: 1/5;
+    grid-row: 1/4;
+    border: 1px solid rgb(121, 87, 194); 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bucketname {
+    grid-column: 5/7;
+    grid-row: 1/4;
+    border: 1px solid rgb(121, 87, 194); 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.region {
+    grid-column: 7/8;
+    grid-row: 1/4;
+    border: 1px solid rgb(121, 87, 194);  
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.action-button {
+    grid-column: 8/9;
+}
+
